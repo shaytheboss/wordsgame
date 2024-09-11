@@ -61,7 +61,6 @@ function startGame() {
     
     // Create letters every 1 second
     letterInterval = setInterval(createFallingLetter, 1000);
-    setTimeout(() => clearInterval(letterInterval), 30000);
 }
 
 // Function to validate if the word is correct (based on local list)
