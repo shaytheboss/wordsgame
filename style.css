@@ -24,9 +24,13 @@ h1 {
 }
 .letter {
     position: absolute;
-    font-size: 30px;
+    font-size: 40px; /* Increase the size of the letter */
     font-weight: bold;
     color: #333;
+    padding: 10px; /* Add padding to make the clickable area larger */
+    border-radius: 50%; /* Optional: make the letter look like a circle */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional background color to improve visibility */
+    cursor: pointer; /* Show pointer to indicate clickable */
 }
 #word {
     font-size: 24px;
@@ -50,4 +54,19 @@ h1 {
     width: 50%;
     height: 80vh;
     background-color: rgba(0, 123, 255, 0.1); /* Optional for visual purposes */
+}
+/* New Game button styling */
+#newGameButton {
+    display: none; /* Hidden initially */
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#newGameButton:hover {
+    background-color: #218838;
 }
