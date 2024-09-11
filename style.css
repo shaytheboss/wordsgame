@@ -1,0 +1,53 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #007BFF;
+    margin-top: 20px;
+}
+#timer {
+    font-size: 24px;
+    margin-top: 20px;
+}
+#gameArea {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-color: #e0e0e0;
+    overflow: hidden;
+    border: 2px solid #007BFF;
+}
+.letter {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+#word {
+    font-size: 24px;
+    margin-top: 20px;
+}
+#scoreboard {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    color: #333;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+}
+/* Target zone where letters will fall */
+#targetZone {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 80vh;
+    background-color: rgba(0, 123, 255, 0.1); /* Optional for visual purposes */
+}
